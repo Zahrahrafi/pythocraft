@@ -10,16 +10,16 @@ pygame.init()
 # create the screen
 screen = pygame.display.set_mode((800, 600))
 # Background
-background = pygame.image.load('../pythonProject2/.idea/farmbackground.jpg')
+background = pygame.image.load('.idea/farmbackground.jpg')
 # Sound
 mixer.music.load("catch it background.wav")
 mixer.music.play(-1)
 # Caption and Icon
 pygame.display.set_caption("Chicken Fox")
-icon = pygame.image.load('../pythonProject2/.idea/farmbackground.jpg')
+icon = pygame.image.load('.idea/farmbackground.jpg')
 pygame.display.set_icon(icon)
 # Player
-playerImg = pygame.image.load('../pythonProject2/.idea/icons8-hen-64.png')
+playerImg = pygame.image.load('.idea/icons8-hen-64.png')
 playerX = 370
 playerY = 480
 playerX_change = 0
@@ -32,7 +32,7 @@ enemyY_change = []
 num_of_enemies = 6
 
 for i in range(num_of_enemies):
-    enemyImg.append(pygame.image.load('../pythonProject2/.idea/icons8-fox-64.png'))
+    enemyImg.append(pygame.image.load('.idea/icons8-fox-64.png'))
     enemyX.append(random.randint(0, 736))
     enemyY.append(random.randint(50, 150))
     enemyX_change.append(0.3)
@@ -42,7 +42,7 @@ for i in range(num_of_enemies):
 # Ready - You can't see the bullet on the screen
 # Fire - The bullet is currently moving
 
-bulletImg = pygame.image.load('../pythonProject2/balloon (1).png')
+bulletImg = pygame.image.load('balloon (1).png')
 bulletX = 0
 bulletY = 480
 bulletX_change = 0
