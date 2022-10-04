@@ -16,7 +16,7 @@ mixer.music.load("catch it background.wav")
 mixer.music.play(-1)
 # Caption and Icon
 pygame.display.set_caption("Chicken Fox")
-icon = pygame.image.load('.idea/farmbackground.jpg')
+icon = pygame.image.load('.idea/fox chicken logo.jpg')
 pygame.display.set_icon(icon)
 # Player
 playerImg = pygame.image.load('.idea/icons8-hen-64.png')
